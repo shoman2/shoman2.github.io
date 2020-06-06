@@ -9,6 +9,7 @@ comments: true
 	 
 - Github Action 사용법 및 cron 사용 방법에 대해 정리한 글입니다
 	- Github Action으로 YES24 IT 신간을 파이썬으로 크롤링 후 Issue에 업로드하는 예제가 있습니다
+		- [Github Action with Python](https://github.com/zzsza/github-action-with-python)
 	- Github action with cron, Github action python 
 
 ---
