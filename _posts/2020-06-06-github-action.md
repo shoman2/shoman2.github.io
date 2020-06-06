@@ -302,7 +302,7 @@ comments: true
 	      run: |
 	        python main.py
 	      env:
-	        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+	        MY_GITHUB_TOKEN: \${{ secrets.MY_GITHUB_TOKEN }}
 	```
 	
 - schedule의 cron에 cron 표현을 등록. UTC 시간대라 한국 시간으론 9시를 의미함
@@ -310,6 +310,8 @@ comments: true
 - requirements.txt에 있는 패키지를 설치하고 main.py를 실행함
 	- 여기서 run 아래에 env 인자에 환경 변수를 넘겨줌
 	- 환경 변수를 넘겨줄 때 Secrets에 저장함	
+	- MY_GITHUB_TOKEN을 secrets.MY_GITHUB_TOKEN 저장한 값을 활용함
+	- 자세한 내용은 [Github Action with Python Code](https://github.com/zzsza/github-action-with-python/blob/master/.github/workflows/python-app.yml) 참고
 
 <br />
 
