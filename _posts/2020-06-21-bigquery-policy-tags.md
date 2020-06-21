@@ -7,7 +7,7 @@ tags: BigQuery
 comments: true
 ---
 
-- BigQuery Column 수준의 보안을 하고싶은 경우 사용할 수 있는 Policy Tags 사용 방법에 대해 작성한 글입니다
+- BigQuery Column 수준의 보안을 가능하게 해주는 Policy Tags 사용 방법에 대해 작성한 글입니다
 	- 글 작성하는 시점(20년 6월 21일)에 아직 Beta 기능이므로 추후에 기능이 변경될 수 있습니다
 
 ---
@@ -32,8 +32,6 @@ comments: true
 
 ---
 
-<br />
-
 ### BigQuery Policy Tags 설정하는 방법
 - 1) Policy Tag 정의(=생성)
 - 2) BigQuery Column에 Policy Tag 할당
@@ -44,12 +42,10 @@ comments: true
 
 ---
 
-<br />
-
 ### 1) Policy Tag 정의
 - [Google Cloud Platform의 콘솔](https://console.cloud.google.com/)에서 Data Catalog 클릭
 	- [Data Catalog 링크](https://console.cloud.google.com/marketplace/details/google/datacatalog.googleapis.com)
-	- <img src="https://www.dropbox.com/s/3nj1iu7921ojwir/Screenshot%202020-06-21%2012.04.00.png?raw=1">
+	- <img src="https://www.dropbox.com/s/3nj1iu7921ojwir/Screenshot%202020-06-21%2012.04.00.png?raw=1" width="200" height="400">
 - 처음 접속시 API 사용 설정 필요
 	- <img src="https://www.dropbox.com/s/3m08h1yaiybobji/Screenshot%202020-06-21%2012.05.08.png?raw=1">
 - Data Catalog 메인에서 "정책 태그" 아래에 있는 정책 태그 생성 및 관리 클릭
@@ -73,7 +69,6 @@ comments: true
 
 ---
 
-<br />
 
 ### 2) BigQuery Column에 Policy Tag 할당
 - Policy Tag를 적용하는 방법은 빅쿼리 스키마를 수정하는 방법과 같음
@@ -104,7 +99,6 @@ comments: true
 
 ---
 
-<br />
 
 	
 ### 3) Policy Tag를 사용할 유저에게 권한 부여
@@ -141,8 +135,6 @@ comments: true
 <br />
 
 ---
-
-<br />
 	
 	
 ### Python에서 BigQuery Policy Tag 적용하기
@@ -163,7 +155,6 @@ comments: true
 
 ---
 
-<br />
 
 ### 정리하면
 - Policy Tags(정책 태그)는 Data Catalog의 기능 중 하나로, 빅쿼리의 열 수준 보안을 가능하게 함
@@ -179,24 +170,23 @@ comments: true
 
 ---
 
-<br />
 
 ### 개선이 필요한 부분(개인 생각)
 - Policy Tag를 사용하지 않다가 적용하면 기존에 SELECT * 이런 쿼리에서 에러가 발생할 수 있음
 	- 그 사람이 볼 수 있는 권한을 가진 열들을 *로 표현할 수는 없나?
 - 스키마쪽에도 특정 열을 권한 설정했다는 것을 보여주는 것보다, 아예 안 보이는게 좋지 않을까?
 - 누가 이 Policy Tag 권한을 가지고 있는지는 보이지만, 어떤 열에 Policy Tag가 설정되어 있는진 직접 다 확인해야 함
-- 현재 베타니 추후엔 이런 기능도 강화되면 좋을 것 같네요 :)
+- 가격 책정 문서의 불명확함
+	- 가격 책정은 [BigQuery 가격 책정](https://cloud.google.com/bigquery/pricing?hl=ko)과 [Data Catalog 가격 책정](https://cloud.google.com/data-catalog/pricing?hl=ko)을 참고하라고 하는데, 설명을 계속 읽어도 와닿지 않음..
+- 현재 베타니 추후엔 이런 내용은 개선될거라 믿습니다! :)
 
 
 <br />
 
 ---
 
-<br />
-
 
 ### Reference
 - [BigQuery 열 수준 보안 소개](https://cloud.google.com/bigquery/docs/column-level-security-intro?hl=ko)
 - [BigQuery 열 수준 보안으로 액세스 제한](https://cloud.google.com/bigquery/docs/column-level-security?hl=ko)
-- [python-datacatalog](https://github.com/googleapis/python-datacatalog) : 지금은 아직 많이 발전하지 않았지만, 나중엔 이 라이브러리에서 Policy Tag를 생성하고 관리할 수 있을듯
+- [python-datacatalog](https://github.com/googleapis/python-datacatalog) : 지금은 아직 많이 발전하지 않았지만, 나중엔 이 라이브러리에서 Policy Tag를 관리하게 될 것 같네요
