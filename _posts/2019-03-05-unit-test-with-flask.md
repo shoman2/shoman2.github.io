@@ -94,7 +94,7 @@ comments: true
 	}
 	``` 	
 
-- Flask는 unit test에서 엔드포인트들을 테스트할 수 있는 기능을 제공함(test_lcient)
+- Flask는 unit test에서 엔드포인트들을 테스트할 수 있는 기능을 제공함(test_client)
 - pytest.fixture 데코레이터를 사용하면 같은 이름의 함수의 리턴값을 해당 인자에 넣어줌
 
 	```

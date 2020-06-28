@@ -254,3 +254,4 @@ comments: true
 - [proj_custom_ai_platform_notebook](https://github.com/tarrade/proj_custom_ai_platform_notebook)
 - [julia on ai platform](https://github.com/mmm/julia-on-ai-platform)
 - [Jupyter Notebook-Centric Development (Cloud Next '19)](https://youtu.be/xU_xdogXFeE)
+- [How to use Jupyter on a Google Cloud VM](https://towardsdatascience.com/how-to-use-jupyter-on-a-google-cloud-vm-5ba1b473f4c2)
