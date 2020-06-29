@@ -23,7 +23,7 @@ comments: true
     - 반면 SimPy는 공유된 자원끼리 상호작용이 없는 고정된 크기의 시뮬레이션엔 오버 스펙임
     - [SimPy Document](https://readthedocs.org/projects/simpy/downloads/pdf/latest/)
     - [영상 자료](https://www.youtube.com/watch?v=Bk91DoAEcjY)
-    - 소스코드 : [Bitbucket](https://bitbucket.org/simpy/simpy/)
+    - 소스코드 : [Gitlab](https://gitlab.com/team-simpy/simpy)
 - 짧은 예제
     - 2개의 시계가 다른 time interval로 움직이는 예제
 
