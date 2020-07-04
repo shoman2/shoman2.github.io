@@ -14,7 +14,7 @@ comments: true
 	- [객체 지향 프로그래밍 살펴보기](#객체-지향-프로그래밍-살펴보기)
 	- [메소드의 종류](#메소드의-종류)
 	- [상속](#상속)
-	- [Setter와 Getter, Property](#setter와-getter,-property)
+	- [Setter와 Getter, Property](#setter와-getter-property)
 	- [추상 메소드](#추상-메소드)
 	
 	
