@@ -548,6 +548,11 @@ car1.price = -1000
 
 <img src="https://www.dropbox.com/s/8qv1s6h4iopqxcj/Screenshot%202020-07-05%2001.45.26.png?raw=1">
 
+<br />
+
+---
+
+<br />
 
 ### 추상 메소드
 - Class를 만들었다면 Class에서 정의된 메소드를 그대로 사용하지 않을 수 있음
