@@ -564,7 +564,7 @@ car1.price = -1000
 ```
 class Car:
     def func1(cls):
-        raise NotImplementedError
+        raise NotImplementedError()
 
 class Sonata(Car):
     pass
