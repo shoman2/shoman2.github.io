@@ -370,17 +370,14 @@ car2 = Car('Audi', {'color' : 'Silver', 'horsepower': 300, 'price': 6000})
 # 기본 정보
 print(car1)
 print(car2)
-print()
 
 # 전체 정보
 car1.detail_info()
 car2.detail_info()
-print()
 
 # 가격 정보(인상 전)
 print(car1.get_price())
 print(car2.get_price())
-print()
 
 # 가격 인상(클래스 메소드 미사용)
 # 이렇게 직접 접근은 좋지 않아요
@@ -393,25 +390,23 @@ print(car2.get_price_culc())
 # 가격 인상(클래스 메소드 사용)
 Car.raise_price(1.6)
 
-# 가격 정보(인상 후 : 클래스메소드)
+# 가격 정보(인상 후 : 클래스 메소드)
 print(car1.get_price_culc())
 print(car2.get_price_culc())
 
 # Bmw 여부(스태틱 메소드 미사용)
 def is_bmw(inst):
     if inst._company == 'Bmw':
-        return 'OK! This car is {}.'.format(inst._company)
+        return f'OK! This car is {inst._company}.'
     return 'Sorry. This car is not Bmw.'
 
 # 별도의 메소드 작성 후 호출
 print(is_bmw(car1))
 print(is_bmw(car2))
-print()
 
 # Bmw 여부(스태틱 메소드 사용)
 print('Static : ', Car.is_bmw(car1))
 print('Static : ', Car.is_bmw(car2))
-print()
 
 print('Static : ', car1.is_bmw(car1))
 print('Static : ', car2.is_bmw(car2))
