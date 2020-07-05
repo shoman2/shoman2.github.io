@@ -431,16 +431,10 @@ class Car:
     def __init__(self, company, price):
         self._company = company
         self._price = price
-        
-    @property
-    def price(self):
-        return self._price
+      
     
-    @price.setter
-    def price(self, price):
-        print(f"변경 전 가격 : {self._price}")
-        self._price = price
-        print(f"변경 후 가격 : {self._price}")
+    def __str__(self):
+        return f'str : {self._company} - {self._price}'
 
 class Sonata(Car):
     def __init__(self, company, price, country):
@@ -448,15 +442,13 @@ class Sonata(Car):
         self._price = price
         self._country = country
  
-    @property
-    def price(self):
-        return self._price
+    def __str__(self):
+        return f'str : {self.__class__.__name__} 차량은 {self._company}에서 출시되었고, {self._country}에서 생산되었습니다. 가격은 {self._price}입니다'
     
-    @price.setter
-    def price(self, price):
-        print(f"변경 전 가격(부과세 포함) : {self._price*1.1}")
-        self._price = price
-        print(f"변경 후 가격(부과세 포함) : {self._price*1.1}")        
+stonic = Car('KIA', 7000)
+print(stonic)
+sonata = Sonata('HYUNDAI', 5000, 'South Korea')
+print(sonata)    
 ```
 
 <br />
