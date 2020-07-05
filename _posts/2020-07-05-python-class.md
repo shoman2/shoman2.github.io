@@ -17,6 +17,7 @@ comments: true
 	- [상속](#상속)
 	- [Setter와 Getter, Property](#setter와-getter-property)
 	- [추상 메소드](#추상-메소드)
+	- [slots](#slots)
 	
 - 파이썬의 핵심은 총 4개
 	- 함수(Fuctions)
@@ -594,12 +595,60 @@ sonata = Sonata() # Error 발생
 
 <img src="https://www.dropbox.com/s/6nu47k6vdhknpxl/Screenshot%202020-07-05%2002.05.53.png?raw=1">
 
+
+<br />
+
+---
+
+<br />
+
+
+### slots
+- 파이썬의 클래스들은 인스턴스 속성을 저장함
+- 파이썬에서 객체의 인스턴스 속성을 저장하기 위해 dictionary를 사용함
+	- 이런 방식은 속성을 추가하거나 삭제할 때 유용함
+	- `obj.__dict__`으로 접근하는 경우
+- 그러나 dictonary 자료 구조는 메모리를 많이 낭비함
+	- 파이썬 객체 생성시 모든 속성을 메모리에 할당하려고 함
+	- 메모리 할당량이 많으면 많은 RAM을 낭비하게 됨
+- 이런 문제를 해결하기 위해 `__slots__`를 사용해 특정 속성에만 메모리를 할당하도록 함
+- [ipython memory usage](https://github.com/ianozsvald/ipython_memory_usage)를 사용하면 `__slots__`를 사용해서 메모리 사용량이 얼마나 개선되는지 확인할 수 있음
+
+- `__slots__` 없이 짠 코드
+
+```
+class Car:
+	def __init__(self, company, price):
+	    self._company = company
+	    self._price = price
+	    self.set_up()
+	    
+    # 코드 생략
+    # set_up은 init시 실행하는 함수라고 생각
+```
+
+- `__slots__`를 사용해 짠 코드
+
+```
+class Car:
+   __slots__ = ['_company', '_price']
+   
+	def __init__(self, company, price):
+	    self._company = company
+	    self._price = price
+	    self.set_up()
+	    
+    # 코드 생략
+    # set_up은 init시 실행하는 함수라고 생각
+```    
+
+
+
 - 추후 추가적으로 다룰 이야기
 	- MetaClass
 
 
 <br />
-
 
 ---
 
