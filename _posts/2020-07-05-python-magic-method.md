@@ -93,7 +93,7 @@ print(dir(float))
 	- add할 경우 커스텀으로 함수를 수정할 수 있음(예를 들어 2개를 더할 경우 벌크 할인 느낌으로 * 0.8!
 
 ```
-class Notebook
+class Notebook:
     def __init__(self, name, price):
         self._name = name
         self._price = price
@@ -140,7 +140,7 @@ print(macbook_pro - xps_13)
 
 
 - 예시 Class #2
-	- *args를 사용해 unpacking, packing에 대한 이해를 만듬
+	- *args를 사용함
 	- Vector.__doc__을 할 경우 아무것도 나오지 않음(작성하지 않았으니)
 
 ```

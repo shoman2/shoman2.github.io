@@ -18,13 +18,6 @@ comments: true
 	- [Setter와 Getter, Property](#setter와-getter-property)
 	- [추상 메소드](#추상-메소드)
 	- [slots](#slots)
-	
-- 파이썬의 핵심은 총 4개
-	- 함수(Fuctions)
-	- 클래스(Class)
-	- 시퀀스(Sequence)
-	- 반복(Iterator)
-- 이 글에선 클래스에 대해 다룸
 
 	
 ---
@@ -49,36 +42,31 @@ comments: true
 
 - 일반적인 코딩
 	- 하나의 형태를 만들고, Copy And Paste(복사 붙여넣기)로 추가 요소를 생성함
-	- 차량이 증가될수록 코드가 길어지게 됨
-	- 차량과 차량 정보를 출력하려면 같이 출력해야 함
+	- 스마트폰이 증가될수록 코드가 길어지게 됨
+	- 스마트폰과 스마트폰 정보를 출력하려면 같이 출력해야 함
 
 	```
-	# 차량1
-	car_company_1 = 'Ferrari'
-	car_detail_1 = [
+	
+	smartphone_1 = 'Iphone'
+	smartphone_detail_1 = [
 	    {'color' : 'White'},
-	    {'horsepower': 400},
+	    {'price': 10000}
+	]
+	
+	smartphone_2 = 'Galaxy'
+	smartphone_detail_2 = [
+	    {'color' : 'Blue'},
 	    {'price': 8000}
 	]
 	
-	# 차량2
-	car_company_2 = 'Bmw'
-	car_detail_2 = [
-	    {'color' : 'Black'},
-	    {'horsepower': 270},
-	    {'price': 5000}
-	]
-	
-	# 차량3
-	car_company_3 = 'Audi'
-	car_detail_3 = [
+	smartphone_3 = 'Blackberry'
+	smartphone_detail_3 = [
 	    {'color' : 'Silver'},
-	    {'horsepower': 300},
 	    {'price': 6000}
 	]
 	
-	print(car_company_1)
-	print(car_detail_1)
+	print(smartphone_1)
+	print(smartphone_detail_1)
 	```
 
 
@@ -86,26 +74,25 @@ comments: true
 	- 위 방법보다 코드가 줄어듬
 	- 변수를 인덱스로 접근 가능
 		- 하지만 실수할 수 있음. 순서가 변경되면?
-		- 데이터가 많아지면? 현대 자동차는 인덱스 1213123번이였는데 기아 자동차가 삭제되서 인덱스가 1213122로 변했으면 어떻게 알 수 있을까?
+		- 데이터가 많아지면? 아이폰는 인덱스 1213123번이였는데 갤럭시가 삭제되서 인덱스가 1213122로 변했으면 어떻게 알 수 있을까?
 	- 한번에 출력할 순 없음
 	- 하나만 삭제하기 힘듬
-		- car_company_list의 1번을 삭제하고, car_detail_list의 1번도 삭제해줘야 함
+		- smartphone\_list의 1번을 삭제하고, smartphone\_detail\_list의 1번도 삭제해줘야 함
 		- 혹은 함수를 구현해야 함
 
 	```
-	car_company_list = ['Ferrari', 'Bmw', 'Audi']
-	car_detail_list = [
-	    {'color' : 'White', 'horsepower': 400, 'price': 8000},
-	    {'color' : 'Black', 'horsepower': 270, 'price': 5000},
-	    {'color' : 'Silver', 'horsepower': 300, 'price': 6000}
+	smartphone_list = ['Iphone', 'Galaxy', 'Blackberry']
+	smartphone_detail_list = [
+	    {'color' : 'White', 'price': 10000},
+	    {'color' : 'Blue', 'price': 8000},
+	    {'color' : 'Silver', 'price': 6000}
 	]
 	
-	# 자동차 회사 삭제
-	del car_company_list[1]
-	del car_detail_list[1]
+	del smartphone_list[1]
+	del smartphone_detail_list[1]
 	
-	print(car_company_list)
-	print(car_detail_list)
+	print(smartphone_list)
+	print(smartphone_detail_list)
 	```
 	
 	
@@ -116,15 +103,15 @@ comments: true
 	- Dict 안의 값에 접근할 때는 ["key"]로 접근
 
 	```
-	cars_dicts = [
-	    {'car_company': 'Ferrari', 'car_detail': {'color' : 'White', 'horsepower': 400, 'price': 8000}},
-	    {'car_company': 'Bmw', 'car_detail': {'color' : 'Black', 'horsepower': 270, 'price': 5000}},
-	    {'car_company': 'Audi', 'car_detail': {'color' : 'Silver', 'horsepower': 300, 'price': 6000}}
+	smartphone_dicts = [
+	    {'brand': 'Iphone', 'smartphone_detail': {'color' : 'White', 'price': 10000}},
+	    {'brand': 'Galaxy', 'smartphone_detail': {'color' : 'Blue', 'price': 8000}},
+	    {'brand': 'Blackberry', 'smartphone_detail': {'color' : 'Silver', 'price': 6000}}
 	]
 	
-	del cars_dicts[1]
-	print(cars_dicts)
-	print(cars_dicts[0]["car_company"])
+	del smartphone_dicts[1]
+	print(smartphone_dicts)
+	print(smartphone_dicts[0]["brand"])
 	```	
 	
 <br />
@@ -161,43 +148,43 @@ comments: true
 
 
 ```
-class Car:
+class Smartphone:
 	"""
-	Car class
+	Smartphone class
 	"""
-    def __init__(self, company, details):
-        self._company = company
+    def __init__(self, brand, details):
+        self._brand = brand
         self._details = details
 
     def __str__(self):
-        return f'str : {self._company} - {self._details}'
+        return f'str : {self._brand} - {self._details}'
 
     def __repr__(self):
-        return f'repr : {self._company} - {self._details}'
+        return f'repr : {self._brand} - {self._details}'
     
 
-car1 = Car('Ferrari', {'color' : 'White', 'horsepower': 400, 'price': 8000})
-car2 = Car('Bmw', {'color' : 'Black', 'horsepower': 270, 'price': 5000})
-car3 = Car('Audi', {'color' : 'Silver', 'horsepower': 300, 'price': 6000})
+Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
+Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
+Smartphone3 = Smartphone('Blackberry', {'color' : 'Silver', 'price': 6000})
 
-print(car1)
-print(car1.__dict__)
-print(car2.__dict__)
-print(car3.__dict__)
+print(Smartphone1)
+print(Smartphone1.__dict__)
+print(Smartphone2.__dict__)
+print(Smartphone3.__dict__)
 
 
 # ID 확인 : 숫자가 모두 다름
-print(id(car1))
-print(id(car2))
+print(id(Smartphone1))
+print(id(Smartphone2))
 
-print(car1._company == car2._company)
-print(car1 is car2)
+print(Smartphone1._brand == Smartphone2._brand)
+print(Smartphone1 is Smartphone2)
 
-for x in car_list:
+for x in Smartphone_list:
     print(repr(x))
     print(x)
     
-print(Car.__doc__)    
+print(Smartphone.__doc__)    
 ```
 	
 	
@@ -211,43 +198,43 @@ print(Car.__doc__)
 
 
 ```
-class Car:
+class Smartphone:
     """
-    Car Class
+    Smartphone Class
     """
-    def __init__(self, company, details):
-        self._company = company
+    def __init__(self, brand, details):
+        self._brand = brandbrand
         self._details = details
 
     def __str__(self):
-        return f'str : {self._company} - {self._details}'
+        return f'str : {self._brand} - {self._details}'
 
     def __repr__(self):
-        return f'repr : {self._company} - {self._details}'
+        return f'repr : {self._brand} - {self._details}'
 
     def detail_info(self):
         print(f'Current Id : {id(self)}')
-        print(f'Car Detail Info : {self._company} {self._details.get('price'))}'
+        print(f'Smartphone Detail Info : {self._brand} {self._details.get('price'))}'
 
 
         
-car1 = Car('Ferrari', {'color' : 'White', 'horsepower': 400, 'price': 8000})
-car2 = Car('Bmw', {'color' : 'Black', 'horsepower': 270, 'price': 5000})
-car3 = Car('Audi', {'color' : 'Silver', 'horsepower': 300, 'price': 6000})
+Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
+Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
+Smartphone3 = Smartphone('Blackberry', {'color' : 'Silver', 'price': 6000})
 	
-car1.detail_info
+Smartphone1.detail_info
 	
-print(car1.__class__, car2.__class__)
+print(Smartphone1.__class__, Smartphone2.__class__)
 # 부모는 같음
-print(id(car1.__class__) == id(car3.__class__))
+print(id(Smartphone1.__class__) == id(Smartphone3.__class__))
 ```	
 
 - 클래스 변수
 	- 클래스 내부에 선언된 변수
 	- 클래스 변수는 클래스의 네임스페이스에 위치함
 	- 모든 인스턴스가 공유하는 변수
-	- `car1.__dict__`를 출력하면 클래스 변수는 보이지 않음
-	- `dir(car1)`를 출력할 때는 클래스 변수가 보임
+	- `Smartphone1.__dict__`를 출력하면 클래스 변수는 보이지 않음
+	- `dir(Smartphone1)`를 출력할 때는 클래스 변수가 보임
 - 인스턴스 변수
 	- self.name 같이 self가 붙은 변수
 	- 인스턴스 변수는 인스턴스의 네임스페이스에 위치함
@@ -256,50 +243,50 @@ print(id(car1.__class__) == id(car3.__class__))
 
 
 ```
-class Car:
+class Smartphone:
     """
-    Car Class
+    Smartphone Class
     """
     # 클래스 변수
-    car_count = 0
+    smartphone_count = 0
     
-    def __init__(self, company, details):
-        self._company = company
+    def __init__(self, brand, details):
+        self._brand = brand
         self._details = details
-        Car.car_count += 1
+        Smartphone.smartphone_count += 1
 
     def __str__(self):
-        return f'str : {self._company} - {self._details}'
+        return f'str : {self._brand} - {self._details}'
 
     def __repr__(self):
-        return f'repr : {self._company} - {self._details}'
+        return f'repr : {self._brand} - {self._details}'
 
     def detail_info(self):
         print(f'Current Id : {id(self)}')
-        print(f'Car Detail Info : {self._company} {self._details.get('price'))}'
+        print(f'Smartphone Detail Info : {self._brand} {self._details.get('price'))}'
 
     def __del__(self):
-        Car.car_count -= 1
+        Smartphone.smartphone_count -= 1
     
-car1 = Car('Ferrari', {'color' : 'White', 'horsepower': 400, 'price': 8000})
-car2 = Car('Bmw', {'color' : 'Black', 'horsepower': 270, 'price': 5000})
-car3 = Car('Audi', {'color' : 'Silver', 'horsepower': 300, 'price': 6000})
+Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
+Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
+Smartphone3 = Smartphone('Blackberry', {'color' : 'Silver', 'price': 6000})
 	
-car1.detail_info
+Smartphone1.detail_info
 	
-print(car1.__class__, car2.__class__)
+print(Smartphone1.__class__, Smartphone2.__class__)
 # 부모는 같음
-print(id(car1.__class__) == id(car3.__class__))
+print(id(Smartphone1.__class__) == id(Smartphone3.__class__))
 	
 # 공유 확인
-print(Car.__dict__)
-print(car1.__dict__)
-print(car2.__dict__)
-print(car3.__dict__)
-print(dir(car1))
+print(Smartphone.__dict__)
+print(Smartphone1.__dict__)
+print(Smartphone2.__dict__)
+print(Smartphone3.__dict__)
+print(dir(Smartphone1))
 	
-print(car1.cor_count)
-print(Car.car_count)
+print(Smartphone1.cor_count)
+print(Smartphone.smartphone_count)
 ```		
 
 <br />
@@ -312,7 +299,7 @@ print(Car.car_count)
 - 클래스 메소드(Python Class Method)
 	- @classmethod 데코레이터를 사용
 	- cls 인자를 받음
-	- cls는 Car를 뜻함(인스턴스 말고 클래스)
+	- cls는 Smartphone를 뜻함(인스턴스 말고 클래스)
 	- 클래스 변수 컨트롤할 때 사용
 - 인스턴스 메소드(Python Instance Method)
 	- Self가 들어간 경우
@@ -324,36 +311,36 @@ print(Car.car_count)
 	
 	
 ```
-class Car:
+class Smartphone:
     """
-    Car Class
+    Smartphone Class
     """
     # 클래스 변수
-    car_count = 0
+    Smartphone_count = 0
     
     # Instance Method
     # self : 객체의 고유한 속성 값 사용
-    def __init__(self, company, details):
-        self._company = company
+    def __init__(self, brand, details):
+        self._brand = brand
         self._details = details
-        Car.car_count += 1
+        Smartphone.smartphone_count += 1
 
     def __str__(self):
-        return f'str : {self._company} - {self._details}'
+        return f'str : {self._brand} - {self._details}'
 
     def __repr__(self):
-        return f'repr : {self._company} - {self._details}'
+        return f'repr : {self._brand} - {self._details}'
 
     def detail_info(self):
         print(f'Current Id : {id(self)}')
-        print(f'Car Detail Info : {self._company} {self._details.get('price'))}'
+        print(f'Smartphone Detail Info : {self._brand} {self._details.get('price'))}'
 
     def get_price(self):
-        return f'Before Car Price -> company : {self._company}, price : {self._details.get('price')}'
+        return f'Before Smartphone Price -> brand : {self._brand}, price : {self._details.get('price')}'
 
     # Instance Method
     def get_price_culc(self):
-        return f'After Car Price -> company : {self._company}, price : {self._details.get('price') * Car.price_per_raise}'
+        return f'After Smartphone Price -> brand : {self._brand}, price : {self._details.get('price') * Smartphone.price_per_raise}'
 
     # Class Method
     @classmethod
@@ -366,59 +353,58 @@ class Car:
 
     # Static Method
     @staticmethod
-    def is_bmw(inst):
-        if inst._company == 'Bmw':
-            return f'OK! This car is {inst._company}.'
-        return 'Sorry. This car is not Bmw.'
+    def is_iphone(inst):
+        if inst._brand == 'Iphone':
+            return f'OK! This Smartphone is {inst._brand}.'
+        return 'Sorry. This Smartphone is not Iphone.'
     
     
-# 자동차 인스턴스    
-car1 = Car('Bmw', {'color' : 'Black', 'horsepower': 270, 'price': 5000})
-car2 = Car('Audi', {'color' : 'Silver', 'horsepower': 300, 'price': 6000})
+Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
+Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
 
 # 기본 정보
-print(car1)
-print(car2)
+print(Smartphone1)
+print(Smartphone2)
 
 # 전체 정보
-car1.detail_info()
-car2.detail_info()
+Smartphone1.detail_info()
+Smartphone2.detail_info()
 
 # 가격 정보(인상 전)
-print(car1.get_price())
-print(car2.get_price())
+print(Smartphone1.get_price())
+print(Smartphone2.get_price())
 
 # 가격 인상(클래스 메소드 미사용)
 # 이렇게 직접 접근은 좋지 않아요
-Car.price_per_raise = 1.2
+Smartphone.price_per_raise = 1.2
 
 # 가격 정보(인상 후)
-print(car1.get_price_culc())
-print(car2.get_price_culc())
+print(Smartphone1.get_price_culc())
+print(Smartphone2.get_price_culc())
 
 # 가격 인상(클래스 메소드 사용)
-Car.raise_price(1.6)
+Smartphone.raise_price(1.6)
 
 # 가격 정보(인상 후 : 클래스 메소드)
-print(car1.get_price_culc())
-print(car2.get_price_culc())
+print(Smartphone1.get_price_culc())
+print(Smartphone2.get_price_culc())
 
-# Bmw 여부(스태틱 메소드 미사용)
-def is_bmw(inst):
-    if inst._company == 'Bmw':
-        return f'OK! This car is {inst._company}.'
-    return 'Sorry. This car is not Bmw.'
+# Iphone 여부(스태틱 메소드 미사용)
+def is_iphone(inst):
+    if inst._brand == 'Iphone':
+        return f'OK! This Smartphone is {inst._brand}.'
+    return 'Sorry. This Smartphone is not Iphone.'
 
 # 별도의 메소드 작성 후 호출
-print(is_bmw(car1))
-print(is_bmw(car2))
+print(is_iphone(Smartphone1))
+print(is_iphone(Smartphone2))
 
-# Bmw 여부(스태틱 메소드 사용)
-print('Static : ', Car.is_bmw(car1))
-print('Static : ', Car.is_bmw(car2))
+# Iphone 여부(스태틱 메소드 사용)
+print('Static : ', Smartphone.is_iphone(Smartphone1))
+print('Static : ', Smartphone.is_iphone(Smartphone2))
 
-print('Static : ', car1.is_bmw(car1))
-print('Static : ', car2.is_bmw(car2))
+print('Static : ', Smartphone1.is_iphone(Smartphone1))
+print('Static : ', Smartphone2.is_iphone(Smartphone2))
 
 ```	
 	
@@ -431,33 +417,33 @@ print('Static : ', car2.is_bmw(car2))
 	
 ### 상속	
 - Class는 상속을 통해 자식 클래스에게 부모 클래스의 속성과 메소드를 물려줌
-	- 예를 들어 Car Class가 있고, Sonata Class, BMW Class 등이 있는 상황
+	- 예를 들어 Smartphone Class가 있고, Sonata Class, BMW Class 등이 있는 상황
 	- Sonata와 BMW가 가치는 속성(attribute)는 다를 수 있음
 	- 다중 상속도 가능함
 
 ```
-class Car:
-    def __init__(self, company, price):
-        self._company = company
+class Smartphone:
+    def __init__(self, brand, price):
+        self._brand = brand
         self._price = price
       
     
     def __str__(self):
-        return f'str : {self._company} - {self._price}'
+        return f'str : {self._brand} - {self._price}'
 
-class Sonata(Car):
-    def __init__(self, company, price, country):
-        self._company = company
+class Galaxy(Smartphone):
+    def __init__(self, brand, price, country):
+        self._brand = brand
         self._price = price
         self._country = country
  
     def __str__(self):
-        return f'str : {self.__class__.__name__} 차량은 {self._company}에서 출시되었고, {self._country}에서 생산되었습니다. 가격은 {self._price}입니다'
+        return f'str : {self.__class__.__name__} 스마트폰은 {self._brand}에서 출시되었고, {self._country}에서 생산되었습니다. 가격은 {self._price}입니다'
     
-stonic = Car('KIA', 7000)
-print(stonic)
-sonata = Sonata('HYUNDAI', 5000, 'South Korea')
-print(sonata)    
+iphone = Smartphone('IPhone', 7000)
+print(iphone)
+galaxy = Galaxy('Galaxy', 5000, 'South Korea')
+print(galaxy)    
 ```
 
 <br />
@@ -476,9 +462,9 @@ print(sonata)
 	- 파이썬은 모든 메서드가 public이기 때문에 getter와 setter 메소드가 없지만, 사용할 수는 있음
 
 ```
-class Car:
-    def __init__(self, company, price):
-        self._company = company
+class Smartphone:
+    def __init__(self, brand, price):
+        self._brand = brand
         self._price = price
         
     def get_price(self):
@@ -494,9 +480,9 @@ class Car:
 	- 데코레이터로 감싸서 사용함
 
 ```
-class Car:
-    def __init__(self, company, price):
-        self._company = company
+class Smartphone:
+    def __init__(self, brand, price):
+        self._brand = brand
         self._price = price
         
     @property
@@ -509,20 +495,20 @@ class Car:
         self._price = price
         print(f"변경 후 가격 : {self._price}")
 
-car1 = Car("기아", 1000)
-car1.price = 10000
+Smartphone1 = Smartphone("Iphone", 1000)
+Smartphone1.price = 10000
 ```
 
 - property를 사용하면 value의 제한을 들 수 있음
-	- 예를 들면, Car class에서 가격이 0원 미만일 경우 에러를 발생시킬 수 있음(property가 아니고 get, set으로 구현하면 에러가 발생하진 않음)
+	- 예를 들면, Smartphone class에서 가격이 0원 미만일 경우 에러를 발생시킬 수 있음(property가 아니고 get, set으로 구현하면 에러가 발생하진 않음)
 - 사용하는 목적
 	- 변수를 변경할 때 제한사항을 두고 싶은 경우
 	- getter, setter 함수를 만들지 않고 간단히 접근하기 위함
 
 ```
-class Car:
-	def __init__(self, company, price):
-	    self._company = company
+class Smartphone:
+	def __init__(self, brand, price):
+	    self._brand = brand
 	    self._price = price
 	    
 	@property
@@ -537,12 +523,12 @@ class Car:
 	    self._price = price
 	    print(f"변경 후 가격 : {self._price}")
 
-car1 = Car("기아", 1000)
-car1.price = 10000   
-car1.price = -1000
+Smartphone1 = Smartphone("Iphone", 1000)
+Smartphone1.price = 10000   
+Smartphone1.price = -1000
 ```	
 
-<img src="https://www.dropbox.com/s/8qv1s6h4iopqxcj/Screenshot%202020-07-05%2001.45.26.png?raw=1">
+
 
 <br />
 
@@ -558,16 +544,16 @@ car1.price = -1000
 - 아래 코드는 Sonata에서 func1 함수를 구현하지 않아 오류가 발생함
 
 ```
-class Car:
+class Smartphone:
     def func1(cls):
         raise NotImplementedError()
 
-class Sonata(Car):
+class Iphone(Smartphone):
     pass
     
     
-sonata = Sonata()
-sonata.func1() # Error 발생
+iphone = Iphone()
+iphone.func1() # Error 발생
 ```
 
 - 조금 더 Strict하고 세련된 방법은 `@abc.abstractmethod`를 사용하는 방법
@@ -580,20 +566,18 @@ sonata.func1() # Error 발생
 ```
 import abc
 
-class Car(metaclass=abc.ABCMeta):
+class Smartphone(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def func1(cls):
         raise NotImplementedError()
 
-class Sonata(Car):
+class Iphone(Smartphone):
     def func2(self):
         pass
 
 
-sonata = Sonata() # Error 발생
+iphone = Iphone() # Error 발생
 ```
-
-<img src="https://www.dropbox.com/s/6nu47k6vdhknpxl/Screenshot%202020-07-05%2002.05.53.png?raw=1">
 
 
 <br />
@@ -617,9 +601,9 @@ sonata = Sonata() # Error 발생
 - `__slots__` 없이 짠 코드
 
 ```
-class Car:
-	def __init__(self, company, price):
-	    self._company = company
+class Smartphone:
+	def __init__(self, brand, price):
+	    self._brand = brand
 	    self._price = price
 	    self.set_up()
 	    
@@ -630,11 +614,11 @@ class Car:
 - `__slots__`를 사용해 짠 코드
 
 ```
-class Car:
-   __slots__ = ['_company', '_price']
+class Smartphone:
+   __slots__ = ['_brand', '_price']
    
-	def __init__(self, company, price):
-	    self._company = company
+	def __init__(self, brand, price):
+	    self._brand = brand
 	    self._price = price
 	    self.set_up()
 	    
