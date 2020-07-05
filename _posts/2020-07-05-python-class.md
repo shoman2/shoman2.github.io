@@ -413,8 +413,8 @@ print('Static : ', Smartphone2.is_iphone(Smartphone2))
 	
 ### 상속	
 - Class는 상속을 통해 자식 클래스에게 부모 클래스의 속성과 메소드를 물려줌
-	- 예를 들어 Smartphone Class가 있고, Sonata Class, BMW Class 등이 있는 상황
-	- Sonata와 BMW가 가치는 속성(attribute)는 다를 수 있음
+	- 예를 들어 Smartphone Class가 있고, Iphone Class, Galaxy Class 등이 있는 상황
+	- Iphone과 Galaxy가 가치는 속성(attribute)는 다를 수 있음
 	- 다중 상속도 가능함
 
 ```
