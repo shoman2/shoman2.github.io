@@ -28,10 +28,9 @@ comments: true
 	- 이럴 때 Namedtuple을 사용하면 더욱 편리해짐
 
 <br />
+<br />
 
 ---
-
-<br />
 
 ### Namedtuple
 - Class가 아니고 collections module 아래에 있음
@@ -106,11 +105,9 @@ comments: true
 	```
 
 <br />
+<br />
 
 ---
-
-
-<br />
 
 ### 네임드 튜플 메소드
 - `_make`
@@ -126,11 +123,9 @@ comments: true
 
 
 <br />
+<br />
 
 ---
-
-
-<br />
 
 
 ### Named Tuple에서 기본 값을 설정하고 싶은 경우
@@ -163,10 +158,9 @@ comments: true
 	```
 
 <br />
+<br />
 
 ---
-
-<br />
 
 
 ### Named Tuple에서 값을 변경하고 싶은 경우
@@ -179,10 +173,9 @@ comments: true
 - 각각의 방식을 이해하고, 차이를 알아두면 좋을듯. 자세한 내용은 [Changing values of a list of namedtuples](https://stackoverflow.com/questions/31252939/changing-values-of-a-list-of-namedtuples/31253184) 참고
 
 <br />
+<br />
 
 ---
-
-<br />
 
 ### Namedtuple 값을 Json으로 변경하고 싶은 경우
 - python namedtuple to json
@@ -198,10 +191,9 @@ comments: true
 	```
 
 <br />
+<br />
 
 ---
-
-<br />
 
 ### Reference	
 - [Python Document - Collections](https://docs.python.org/ko/3.7/library/collections.html)

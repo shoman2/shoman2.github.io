@@ -115,10 +115,9 @@ comments: true
 	```	
 	
 <br />
+<br />
 
 ---
-
-<br />
 	
 ### 객체 지향 프로그래밍 살펴보기
 - 구조 설계한 후, 재사용성 증가
@@ -290,10 +289,9 @@ print(Smartphone.smartphone_count)
 ```		
 
 <br />
+<br />
 
 ---
-
-<br />
 
 ### 메소드의 종류
 - 클래스 메소드(Python Class Method)
@@ -409,11 +407,9 @@ print('Static : ', Smartphone2.is_iphone(Smartphone2))
 ```	
 	
 <br />
-
----
-
 <br />
 
+---
 	
 ### 상속	
 - Class는 상속을 통해 자식 클래스에게 부모 클래스의 속성과 메소드를 물려줌
@@ -447,11 +443,9 @@ print(galaxy)
 ```
 
 <br />
-
----
-
 <br />
 
+---
 
 ### Setter와 Getter, Property
 - 객체의 속성(attribute)를 다룰 때 사용
@@ -531,10 +525,9 @@ Smartphone1.price = -1000
 
 
 <br />
+<br />
 
 ---
-
-<br />
 
 ### 추상 메소드
 - Class를 만들었다면 Class에서 정의된 메소드를 그대로 사용하지 않을 수 있음
@@ -581,11 +574,9 @@ iphone = Iphone() # Error 발생
 
 
 <br />
-
----
-
 <br />
 
+---
 
 ### slots
 - 파이썬의 클래스들은 인스턴스 속성을 저장함
@@ -633,10 +624,9 @@ class Smartphone:
 
 
 <br />
+<br />
 
 ---
-
-<br />
 
 ### Reference	
 - [인프런 파이썬 중급 프로그래밍](https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A4%91%EA%B8%89-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90)
