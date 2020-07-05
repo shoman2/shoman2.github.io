@@ -18,6 +18,13 @@ comments: true
 	- [Setter와 Getter, Property](#setter와-getter-property)
 	- [추상 메소드](#추상-메소드)
 	
+- 파이썬의 핵심은 총 4개
+	- 함수(Fuctions)
+	- 클래스(Class)
+	- 시퀀스(Sequence)
+	- 반복(Iterator)
+- 이 글에선 클래스에 대해 다룸
+
 	
 ---
 
