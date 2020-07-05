@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "파이썬 중급 - Python Class 예제 및 사용 방법"
-subtitle: "파이썬 중급 - Python Class 예제 및 사용 방법"
+title:  "파이썬 중급 - Python Class 예제 및 사용법"
+subtitle: "파이썬 중급 - Python Class 예제 및 사용법"
 categories: development
 tags: python
 comments: true
 ---
 
-- Python Class 예제 및 사용 방법에 대해 작성한 글입니다
+- Python Class 예제 및 Python Class 사용법에 대해 작성한 글입니다
+- 키워드 : Python Class, Python Class Example, Python Class Use Case
 - 목차
 	- [객체 지향 프로그래밍](#객체-지향-프로그래밍)
 	- [절차 지향 프로그래밍 예시](#절차-지향-프로그래밍-예시)
