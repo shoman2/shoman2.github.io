@@ -7,7 +7,7 @@ tags: python
 comments: true
 ---
 
-- Python Magic Method 사용법대해 작성한 글입니다
+- Python Magic Method 사용법에 대해 작성한 글입니다
 - 키워드 : Python Magic Method, Python Special Method
 	
 	
