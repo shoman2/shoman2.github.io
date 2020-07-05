@@ -478,16 +478,16 @@ class Smartphone:
     def __init__(self, brand, price):
         self._brand = brand
         self._price = price
-        
-    @property
-    def price(self):
-        return self._price
-    
-    @price.setter
-    def price(self, price):
-        print(f"변경 전 가격 : {self._price}")
-        self._price = price
-        print(f"변경 후 가격 : {self._price}")
+ 
+	@property
+	def price(self):
+	    return self._price
+	    
+	@price.setter
+	def price(self, price):
+	    print(f"변경 전 가격 : {self._price}")
+	    self._price = price
+	    print(f"변경 후 가격 : {self._price}")
 
 Smartphone1 = Smartphone("Iphone", 1000)
 Smartphone1.price = 10000
@@ -501,21 +501,19 @@ Smartphone1.price = 10000
 
 ```
 class Smartphone:
-	def __init__(self, brand, price):
-	    self._brand = brand
-	    self._price = price
+    def __init__(self, brand, price):
+        self._brand = brand        self._price = price
 	    
-	@property
-	def price(self):
-	    return self._price
+    @property
+    def price(self):        return self._price
 	    
-	@price.setter
-	def price(self, price):
-	    if price < 0:
-	        raise ValueError("Price below 0 is not possible")
-	    print(f"변경 전 가격 : {self._price}")
-	    self._price = price
-	    print(f"변경 후 가격 : {self._price}")
+    @price.setter
+    def price(self, price):
+        if price < 0:
+            raise ValueError("Price below 0 is not possible")
+        print(f"변경 전 가격 : {self._price}")
+        self._price = price
+        print(f"변경 후 가격 : {self._price}")
 
 Smartphone1 = Smartphone("Iphone", 1000)
 Smartphone1.price = 10000   
@@ -593,10 +591,10 @@ iphone = Iphone() # Error 발생
 
 ```
 class Smartphone:
-	def __init__(self, brand, price):
-	    self._brand = brand
-	    self._price = price
-	    self.set_up()
+    def __init__(self, brand, price):
+        self._brand = brand
+        self._price = price
+        self.set_up()
 	    
     # 코드 생략
     # set_up은 init시 실행하는 함수라고 생각
@@ -606,12 +604,10 @@ class Smartphone:
 
 ```
 class Smartphone:
-   __slots__ = ['_brand', '_price']
+    __slots__ = ['_brand', '_price']
    
-	def __init__(self, brand, price):
-	    self._brand = brand
-	    self._price = price
-	    self.set_up()
+    def __init__(self, brand, price):        self._brand = brand        self._price = price
+        self.set_up()
 	    
     # 코드 생략
     # set_up은 init시 실행하는 함수라고 생각
