@@ -479,15 +479,15 @@ class Smartphone:
         self._brand = brand
         self._price = price
  
-	@property
-	def price(self):
-	    return self._price
+    @property
+    def price(self):
+        return self._price
 	    
-	@price.setter
-	def price(self, price):
-	    print(f"변경 전 가격 : {self._price}")
-	    self._price = price
-	    print(f"변경 후 가격 : {self._price}")
+    @price.setter
+    def price(self, price):
+        print(f"변경 전 가격 : {self._price}")
+        self._price = price
+        print(f"변경 후 가격 : {self._price}")
 
 Smartphone1 = Smartphone("Iphone", 1000)
 Smartphone1.price = 10000
