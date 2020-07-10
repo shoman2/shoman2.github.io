@@ -19,6 +19,7 @@ comments: true
 - 7월 9일경 페이스북에서 Github에 새로운 Feature가 나왔다는 글을 봤습니다
 - 글은 [Design Github profile using README.md](https://dev.to/web/design-github-profile-using-readme-md-8al)로, Github의 우측 공간에 자신의 프로필을 올릴 수 있는 기능이 나왔습니다!
 - 간단히 제 최종 프로필을 보여드리면 아래와 같이 우측 공간에 프로필이 생깁니다
+	- 제 Github : [https://github.com/zzsza](https://github.com/zzsza)
 
 <img src="https://www.dropbox.com/s/7kcp1mt6jzyk60v/Screenshot%202020-07-10%2023.11.03.png?raw=1">
 
