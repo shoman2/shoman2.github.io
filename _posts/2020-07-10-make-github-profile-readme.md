@@ -89,12 +89,12 @@ comments: true
 
 
 - 그 외에도 이미지 추가, Table 표현도 가능합니다
-	- Table 생성은 [Tables Generator]https://www.tablesgenerator.com/markdown_tables)에서 쉽게 생성할 수 있습니다 
+	- Table 생성은 [Tables Generator](https://www.tablesgenerator.com/markdown_tables)에서 쉽게 생성할 수 있습니다 
 
 - 또한, [shields.io](https://shields.io/)에서 Badge를 생성할 수 있습니다
 	- [Simple Icons](https://simpleicons.org/)에 있는 아이콘을 쉽게 사용할 수 있습니다
 
-[![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-FB5BC5?style=flat-square&logo=github&link=https://zzsza.github.io/)](https://zzsza.github.io/)
+[![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://zzsza.github.io/)](https://zzsza.github.io/)
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/seong-yun-byeon-8183a8113/)](https://www.linkedin.com/in/seong-yun-byeon-8183a8113/)
 
@@ -107,7 +107,7 @@ comments: true
 
 
 - img.shields.io/badge/ 뒤에 `작성할 단어-색상?스타일옵션` 이렇게 뱃지를 생성할 수 있습니다
-- 색상 코드는 주로 [](https://simpleicons.org/)에서 참고했고, [shields](https://shields.io/)에서 생성할 수 있습니다
+- 색상 코드는 주로 [simpleicons](https://simpleicons.org/)에서 참고했고, [shields](https://shields.io/)에서 생성할 수 있습니다
 
 - Badge 코드
 
