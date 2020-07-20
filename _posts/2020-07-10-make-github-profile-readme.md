@@ -171,3 +171,16 @@ comments: true
 - 포트폴리오로 사용하실 분들은, 더 자세히 작성하셔도 좋을 것 같습니다!
 	- 한국어/영어 버전을 만들어서 누를 수 있게 해도 좋을 것 같네요 :)
 - 앞으로 더 창의적인 Github Profile이 나올 것 같네요!
+
+
+
+- 20년 7월 20일
+	- 다양한 분들의 프로필을 보다가, Github Stats도 발견했습니다!
+	- [Github Stats Card](https://github.com/anuraghazra/github-readme-stats)에서 확인할 수 있습니다
+	- username을 수정해주시면 됩니다!
+	
+	```
+	[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=username)](https://github.com/anuraghazra/github-readme-stats)
+	```
+
+[![kyle's github stats](https://github-readme-stats.vercel.app/api?username=zzsza)](https://github.com/anuraghazra/github-readme-stats)
