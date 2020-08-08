@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Basic
 slug: basic
-category: mlops
+category: people
 menu: false
 order: 1
 ---

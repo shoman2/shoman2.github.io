@@ -50,7 +50,7 @@ google_fonts:        Lato
 disqus_shortname:    shoman2
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. by Seongyun Byeon, modified by Tae You Kim'
+copyright:           '&copy; 2020 modified by Tae You Kim'
 
 # Format of the permalinks
 permalink:           pretty
