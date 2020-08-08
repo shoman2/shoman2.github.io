@@ -2,7 +2,7 @@
 layout: tag-blog
 title: DevOps
 slug: devops
-category: development
+category: dev
 menu: false
 order: 8
 ---
