@@ -1,7 +1,7 @@
 ---
 layout: list
 title: People
-slug: data
+slug: people
 menu: true
 submenu: true
 order: 2

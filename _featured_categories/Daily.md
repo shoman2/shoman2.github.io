@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Daily
-slug: data
+slug: daily
 menu: true
 submenu: true
 order: 1
