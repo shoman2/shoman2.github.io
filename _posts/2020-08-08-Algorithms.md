@@ -2,7 +2,7 @@
 layout: post
 title:  "알고리즘 복잡도"
 subtitle:   "알고리즘 복잡도"
-categories: dev
+categories: Algorithms
 tags: Algorithms
 comments: true
 ---
