@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: Algorithms
-slug: Algorithms
+slug: dev
 category: development
 menu: false
 order: 1
