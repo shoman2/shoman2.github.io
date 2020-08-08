@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Data Science
-slug: ds
+slug: data
 menu: true
 submenu: true
 order: 3
