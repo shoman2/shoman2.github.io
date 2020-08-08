@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               데이터 사이언스 블로그
+title:               그래서 그대는
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -18,7 +18,7 @@ tagline:             Data Scientist
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  데이터 사이언티스트 @ KPMG Lighthouse
+  일상을 그리다 : @KPMG
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -44,13 +44,13 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    UA-110573232-1
+# google_analytics:    UA-110573232-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    zzsza
+disqus_shortname:    shoman2
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. by Seongyun Byeon'
+copyright:           '&copy; 2017. by Seongyun Byeon, modified by Tae You Kim'
 
 # Format of the permalinks
 permalink:           pretty
