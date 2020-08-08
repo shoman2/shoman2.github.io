@@ -2,13 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 zzsza:
-  name:              seongyun byeon
-  email:             snugyun01@gmail.com
+  name:              Tae You Kim
+  email:             kimtaeyou0923@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Machine Learning Engineer
+    Data Scientist
 
   # This photo will be used in the about section
   picture:
@@ -22,17 +22,17 @@ zzsza:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    facebook:        zzsza
+    facebook:        tae.y.kim.56
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
-    youtube:         UCYyAaezBGEVmXcnink6nY9Q
+    # youtube:         UCYyAaezBGEVmXcnink6nY9Q
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram:       data.scientist
+    #instagram:       data.scientist
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -46,19 +46,19 @@ zzsza:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          zzsza
+    github:          shoman2
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        seong-yun-byeon-8183a8113
+    linkedin:        tae-you-kim-5204184b
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:snugyun01@gmail.com
-    rss:             https://zzsza.github.io/feed.xml
+    email:           mailto:kimtaeyou0923@gmail.com
+    rss:             https://shoman2.github.io/feed.xml
 
 # Another author
 mdo:
