@@ -15,7 +15,7 @@ comments: true
 
 
 
-<img src="E:\github_blog\shoman2.github.io\assets\img\unfuckyourself.jpg" alt="시작의 기술" style="zoom:50%;" />
+<img src="\assets\img\unfuckyourself.jpg" alt="시작의 기술" style="zoom:50%;" />
 
 사진출처 : yes24
 
