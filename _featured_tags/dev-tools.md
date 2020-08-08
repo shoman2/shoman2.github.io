@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Tools
 slug: tools
-category: development
+category: dev
 menu: false
 order: 11
 ---
