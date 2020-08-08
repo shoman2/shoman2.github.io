@@ -1,7 +1,6 @@
 ## Github Blog
 - [https://shoman2.github.io](https://shoman2.github.io)
-- 이 블로그는 [박민](https://github.com/isme2n/isme2n.github.io)님 블로그 테마를 기반으로 제작되었습니다
-	- 박민님 테마 대비 다른 점은 검색 시스템을 붙인 점입니다
+
 
 ### Structure
 - 다른 분들이 이 테마를 Fork할 경우, 사용할 수 있도록 블로그 구조에 대해 설명합니다
