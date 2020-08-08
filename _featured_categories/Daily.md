@@ -1,3 +1,10 @@
-# 테스트
-
-1. 테스트입니다.
+---
+layout: list
+title: Daily
+slug: data
+menu: true
+submenu: true
+order: 1
+description: >
+  매일 일상 
+---
