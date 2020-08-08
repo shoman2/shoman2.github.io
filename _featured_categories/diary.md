@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Diary
+title: Daily Report
 slug: diary
 menu: true
 submenu: false
