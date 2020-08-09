@@ -1,11 +1,12 @@
-```
+---
 layout: post
-title:  "시작의 기술"
-subtitle:   "CH.1"
-categories: etc
+title:  "시작의기술"
+subtitle:   "CH_1"
+categories: etc 
 tags: book
-comments: true	
-```
+comments: true
+---
+
 
 # 시작의 기술
 
