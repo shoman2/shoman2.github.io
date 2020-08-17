@@ -3,7 +3,7 @@ layout: post
 title:  "Data Engineering Pipeline"
 subtitle:   "Pipeline"
 categories: data
-tags: Engineering
+tags: engineering
 comments: true
 ---
 # 데이터 파이프라인 이란?
@@ -52,7 +52,7 @@ comments: true
 
 #### 1)데이터 프로세싱 스텝들
 
-![image-20200817233901641](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817233901641.png)
+![image-20200817233901641](https://shoman2.github.io/assets/img/image-20200817233901641.png)
 
 - 각 스텝별로 어떻게 작동시킬 것인지 고민해야함
 
@@ -75,5 +75,6 @@ Cloud Logging Systems
 
 #### 3)트리거 & 스케쥴링
 
-![image-20200817234336611](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817234336611.png)
+![image-20200817234336611](https://shoman2.github.io/assets/img/image-20200817234336611.png)
+
 
