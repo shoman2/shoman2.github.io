@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Engineering 아키텍처"
+subtitle:   "넷플릭스 및 우버"
+categories: data
+tags: engineering
+comments: true
+---
 # End-to-End 아키텍쳐 
 
 #### 빅데이터 처리를 위한 데이터 레이크(Data Lake)
@@ -16,11 +24,11 @@
 
 #### 넷플릭스 데이터 시스템 예시
 
-![image-20200817234907926](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817234907926.png)
+![image-20200817234907926](https://shoman2.github.io/assets/img/image-20200817234907926.png)
 
 #### UBER 데이터 아키텍처 예시
 
-![image-20200817235052014](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817235052014.png)
+![image-20200817235052014](https://shoman2.github.io/assets/img/image-20200817235052014.png)
 
 # Spotify Prj - 데이터 아키텍쳐
 
@@ -34,15 +42,15 @@ Automated: 이벤트, 스케쥴 등 트리거를 통해 자동화 시스템 구�
 
 #### 아티스트 관련 데이터 수집 프로세스
 
-![image-20200817235652829](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817235652829.png)
+![image-20200817235652829](https://shoman2.github.io/assets/img/image-20200817235652829.png)
 
 #### 데이터 분석 환경 구축
 
-![image-20200817235838488](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817235838488.png)
+![image-20200817235838488](https://shoman2.github.io/assets/img/image-20200817235838488.png)
 
 #### 서비스 관련 데이터 프로세스
 
-![image-20200818000116235](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200818000116235.png)
+![image-20200818000116235](https://shoman2.github.io/assets/img/image-20200818000116235.png)
 
 - 다이나모 DB(NoSQL)에 저장 및 바로 챗봇에 반영
 - Why DynamoDB? 퍼포먼스가 좋으며, 다양한 형태로 유기적 변형 가능
