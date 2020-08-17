@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Engineering Intro "
+subtitle:   ""
+categories: data
+tags: Engineering
+comments: true
+---
 # Data Engineering 필요성
 
 모든 비즈니스가 동일한 데이터 분석 환경을 갖출 수 없으며, 성장 단계에 따라 선택과 집중을 해야하는 분석환경이 다름
