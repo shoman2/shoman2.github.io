@@ -10,7 +10,7 @@ comments: true
 
 #### 빅데이터 처리를 위한 데이터 레이크(Data Lake)
 
-![image-20200817234534083](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200817234534083.png)
+![image-20200817234534083](https://shoman2.github.io/assets/img/image-20200817234534083.png)
 
 - 온프렘, 빅데이터, 디비 등 여러 곳에서 데이터가 몰려들어온다.
 
