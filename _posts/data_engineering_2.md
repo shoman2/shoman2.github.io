@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Engineering Pipeline"
+subtitle:   "Pipeline"
+categories: data
+tags: Engineering
+comments: true
+---
 # 데이터 파이프라인 이란?
 
 #### 1)데이터 파이프라인 이란 ?
