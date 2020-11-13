@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "자연어처리 - Interpolation + PPL "
+subtitle:   "Language Modeling"
+categories: data
+tags: dl
+comments: true
+---
 # Interpolation & Back-off
 
 - 수치 보간법이라고 한글로 불리움.. 수학과 수업에서 들어본 듯.
