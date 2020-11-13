@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Data Engineering 기초 RDB"
+subtitle:   "SQL, RDBMS"
+categories: data
+tags: engineering
+comments: true
+---
+
 # SQL Data Types
 
 SQL Data Types
