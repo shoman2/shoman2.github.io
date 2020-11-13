@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "자연어처리 - 인트로덕션 (LM)"
+subtitle:   "Language Modeling"
+categories: data
+tags: dl
+comments: true
+---
 # Intro to Language Modeling(LM)
 
 - 언어모델, LM은 "문장의 확률"을 나타낸 모델
