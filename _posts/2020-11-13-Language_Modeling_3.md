@@ -59,7 +59,7 @@ comments: true
 - #### Perplexity?
 
   - Sharp vs. Flat Distribution
-  - ![image-20201113233931453](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20201113233931453.png)
+  - ![image-20201113233931453](https://github.com/shoman2/shoman2.github.io/blob/master/assets/img/image-20201113233931453.png)
   - PPL이 높다? Flat한 분포. 즉 아무대서나 다 나타나더라.
 
 - #### Information and Entropy
