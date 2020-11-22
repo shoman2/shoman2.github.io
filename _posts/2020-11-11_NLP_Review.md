@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "자연어처리 - NLG 관련 기존 내용 리뷰"
-subtitle:   "Language Modeling"
+subtitle:   "Review: Statistical & Geometric Perspective for Deep Learning"
 categories: data
 tags: dl
 comments: true
 ---
+
 # Review: Statistical & Geometric Perspective for Deep Learning
 
 - 기존 Our objective is:
