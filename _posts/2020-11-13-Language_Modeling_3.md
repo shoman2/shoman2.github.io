@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "N-GRAM 정리 "
+subtitle:   "Language Modeling"
+categories: data
+tags: dl
+comments: true
+---
 # n-gram 정리
 
 - #### 장점
