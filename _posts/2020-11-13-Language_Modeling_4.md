@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Auto-regressive & Teacher Forcing"
+subtitle:   "Language Modeling"
+categories: data
+tags: dl
+comments: true
+---
 # Auto-regressive & Teacher Forcing
 
 - #### RNN의 구분?
