@@ -10,7 +10,7 @@ comments: true
 
 - #### RNN의 구분?
 
-  - ![image-20201113235619022](/shoman2.github.io/assets/img/image-20201113235619022.png)
+  - ![image-20201113235619022](github.io/shoman2/assets/img/image-20201113235619022.png)
 
 - #### 또 다른 구분?
 
