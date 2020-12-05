@@ -50,7 +50,7 @@ comments: true
 
 #### 1) 비즈니스 모델 상 가장 중요한 데이터는 무엇인가 ? 
 
-![image-20200817225741201](/Users/tkim29/Library/Application Support/typora-user-images/image-20200817225741201.png)
+![image-20200817225741201](https://shoman2.github.io/assets/img/image-20200817225741201.png)
 
 #### 2) 데이터 거버넌스
 
