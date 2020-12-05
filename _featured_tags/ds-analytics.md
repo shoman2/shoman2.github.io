@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Analytics
 slug: analytics
-category: data
+category: 
 menu: false
 order: 11
 ---
