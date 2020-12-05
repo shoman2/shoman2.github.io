@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: Deep-Learning
+title: ML/DL
 slug: dl
 category: data
 menu: false
