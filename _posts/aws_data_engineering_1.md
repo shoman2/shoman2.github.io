@@ -2,7 +2,7 @@
 
 #### 1.AWS 가입 후 둘러보기
 
-![image-20200818211137479](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20200818211137479.png)
+![image-20200818211137479](https://shoman2.github.io/assets/img/image-20200818211137479.png)
 
 여러가지 서비스들이 보인다. 특히 EC2, S3 정도는 눈에 익혀놔야한다. 무조건 쓰기 때문에..
 
