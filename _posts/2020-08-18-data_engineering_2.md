@@ -26,7 +26,7 @@ comments: true
 
 #### 3)데이터 파이프라인 예시
 
-![image-20200817233047001](/Users/tkim29/github_blog/shoman2.github.io/assets/img/docs/image-20200817233047001.png)
+![image-20200817233047001](https://shoman2.github.io/assets/img/docs/image-20200817233047001.png)
 
 #### 4)데이터 파이프라인 구축시 고려 사항
 
