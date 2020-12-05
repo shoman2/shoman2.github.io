@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Engineering "
+subtitle:   "AWS Set Up - Free Tier"
+categories: data
+tags: engineering
+comments: true
+---
 # AWS 프리티어 구축 (for Data Engineering) 
 
 #### 1.AWS 가입 후 둘러보기
