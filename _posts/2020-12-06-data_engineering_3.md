@@ -7,7 +7,6 @@ tags: engineering
 comments: true
 ---
 # End-to-End 아키텍쳐 
-
 #### 빅데이터 처리를 위한 데이터 레이크(Data Lake)
 
 ![image-20200817234534083](https://shoman2.github.io/assets/img/image-20200817234534083.png)
