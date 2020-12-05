@@ -27,7 +27,7 @@ df.plot()
 
     <AxesSubplot:xlabel='Date'>
 
-![png](https://github.com/shoman2/shoman2.github.io/blob/master/assets/img/output_2_1.png)
+![png](https://github.com/shoman2/shoman2.github.io/assets/img/output_2_1.png)
 
 
 
@@ -292,7 +292,7 @@ df2['Close'].plot()
 
 
 
-![png](https://github.com/shoman2/shoman2.github.io/blob/master/assets/img/output_12_1.png)
+![png](https://github.com/shoman2/shoman2.github.io/assets/img/output_12_1.png)
 
 **최근에 크게 가격이 상승한 것으로 보여진다. 특히 하이닉스. 이런형태로 각 종목별 레이블링과 기간에따른 종가 Movement를 조금더 디테일하게 그려보자. 삼성전자, 한글과컴퓨터, 그리고 각종 ETF의 움직임을 동시에 그려보도록 한다.**
 
@@ -502,7 +502,7 @@ df.plot()
 
 
 
-![png](https://github.com/shoman2/shoman2.github.io/blob/master/assets/img/output_19_1.png)
+![png](https://github.com/shoman2/shoman2.github.io/assets/img/output_19_1.png)
 
 
 
@@ -677,7 +677,7 @@ df2.plot()
 
 
 
-![png](https://github.com/shoman2/shoman2.github.io/blob/master/assets/img/output_25_1.png)
+![png](https://github.com/shoman2/shoman2.github.io/assets/img/output_25_1.png)
 
 
 
