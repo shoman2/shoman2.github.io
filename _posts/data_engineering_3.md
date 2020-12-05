@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Data Engineering 아키텍처"
-subtitle:   "넷플릭스 및 우버"
+title:  "Data Engineering"
+subtitle:   "넷플릭스 및 우버 "
 categories: data
 tags: engineering
 comments: true
