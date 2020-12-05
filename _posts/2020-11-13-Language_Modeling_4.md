@@ -10,7 +10,7 @@ comments: true
 
 - #### RNN의 구분?
 
-  - ![image-20201113235619022](github.io/shoman2/assets/img/image-20201113235619022.png)
+  - ![image-20201113235619022](https://shoman2.github.io/assets/img/image-20201113235619022.png)
 
 - #### 또 다른 구분?
 
@@ -30,7 +30,7 @@ comments: true
 
 - #### Teacher-Forcing
 
-  - ![image-20201114001043158](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-20201114001043158.png)
+  - ![image-20201114001043158](https://shoman2.github.io/assets/img/image-20201114001043158.png)
   - MLE의 수식상, 정답 x t-1을 RNN의 입력으로 넣어줘야 함.. 나름 학습과 인퍼런스도 잘 되긴하는데..
 
 - #### 고통의 시작:  NLG is Auto-regressive Task
