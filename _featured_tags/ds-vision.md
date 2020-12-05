@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Vision
 slug: vision
-category: data
+category: 
 menu: false
 order: 13
 ---
