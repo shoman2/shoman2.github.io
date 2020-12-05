@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Engineering "
+subtitle:   "Basic Set up"
+categories: data
+tags: engineering
+comments: true
+---
 # Data Engineering 기초 Set up
 
 #### 1. 텍스트 에디터 사용 (어떤걸 쓰던 자기가 편한게 장땡)
