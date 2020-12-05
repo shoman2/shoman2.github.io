@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Data Engineering Intro "
-subtitle:   ""
+title:  "Data Engineering "
+subtitle:   "Introduction"
 categories: data
 tags: engineering
 comments: true
