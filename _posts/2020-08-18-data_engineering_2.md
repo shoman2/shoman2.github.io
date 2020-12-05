@@ -15,6 +15,7 @@ comments: true
 - API 에서 DB로
 - DB에서 다른 DB로
 - DB에서 BI Tool로 시각화
+---
 
 #### 2)데이터 파이프라인이 필요한 경우
 
