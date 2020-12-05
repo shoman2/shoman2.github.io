@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Engineering "
+subtitle:   "NoSQL"
+categories: data
+tags: engineering
+comments: true
+---
 # Data Engineering - NoSQL
 
 #### 1)Not Only SQL - 관계형 데이터베이스와의 극명한 차이
