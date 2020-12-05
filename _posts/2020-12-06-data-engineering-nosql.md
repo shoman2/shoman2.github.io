@@ -7,7 +7,6 @@ tags: engineering
 comments: true
 ---
 # Data Engineering - NoSQL
-
 #### 1)Not Only SQL - 관계형 데이터베이스와의 극명한 차이
 
 ##### **다이나믹 스키마**
