@@ -10,23 +10,24 @@ order: 10
 - Github : [https://github.com/shoman2](https://github.com/shoman2)
 - Email : [kimtaeyou0923@gmail.com](kimtaeyou0923@gmail.com)
 
-```데이터 사이언티스트```이자 분석기획자고 믿고 있습니다. 
+```데이터 사이언티스트```이자 분석기획자라고 믿고 있습니다. 
 처음 시작한 언어는 ```Python```입니다. 
 
 회계/세무가 그닥 재미없어서 데이터쪽으로 튼 후 생산적인 글을 적습니다.
 
 
+
 ## 경력
 
-| 소속                         | 기간    | 담당 업무                     |
-| ---------------------------- | ------- | ----------------------------- |
-| KPMG US - 뉴욕 맨하탄 오피스 | 2 Yr    | 회계감사                      |
-| KPMG Canada - 토론토 오피스  | 1 Yr    | 회계감사                      |
-| 삼정KPMG - Transfer Pricing  | 3 Yr    | 국제 조세 컨설팅              |
-| 삼정KPMG - Lighthouse        | Present | 데이터 사이언티스트 및 기획자 |
+KPMG US/Canada를 거쳐 삼정KPMG Lighthouse 팀에서 데이터관련 직무를 맡고 있습니다.
 
 
 
 ## 프로젝트
 
-To be updated
+1.KPMG Signals Repository 데이터플랫폼 기획, 설계, 구축
+
+2.Tax OCR App 기획, 개발
+
+3.To be added...
+
