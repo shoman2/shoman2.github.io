@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Kaggle
-slug: kaggle
+title: Competitions
+slug: competitions
 category: data
 menu: false
 order: 12
