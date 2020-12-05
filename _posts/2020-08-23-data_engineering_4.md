@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering 기초 RDB"
+title:  "Data Engineering"
 subtitle:   "SQL, RDBMS"
 categories: data
 tags: engineering
