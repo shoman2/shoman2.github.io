@@ -8,7 +8,7 @@
 
 - 다운로드 후 설치 (아래 이미지 참조, 컬러가 예쁘다.)
 
-  ![image-20200818202946149](/Users/tkim29/github_blog/shoman2.github.io/assets/img/image-202008182029461491.png)
+  ![image-20200818202946149](https://shoman2.github.io/assets/img/image-202008182029461491.png)
 
 - 맥 터미널에서 codes라는 폴더를 생성(mkdir codes)후 atom . 을 입력하면 아톰이 자동으로 실행되면서 해당 디렉토리에서 작업을 진행 할 수 있게됨 
 
