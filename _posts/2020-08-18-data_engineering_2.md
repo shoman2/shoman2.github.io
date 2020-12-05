@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering Pipeline"
+title:  "Data Engineering"
 subtitle:   "Pipeline"
 categories: data
 tags: engineering
