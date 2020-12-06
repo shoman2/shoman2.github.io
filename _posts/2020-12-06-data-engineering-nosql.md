@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering "
+title:  "Data Engineering - NoSQL"
 subtitle:   "NoSQL"
 categories: data
 tags: engineering

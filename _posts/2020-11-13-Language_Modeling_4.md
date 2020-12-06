@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Auto-regressive & Teacher Forcing"
+title:  "자연어처리 - Auto-regressive & Teacher Forcing"
 subtitle:   "Language Modeling"
 categories: data
 tags: dl
 comments: true
 ---
 # Auto-regressive & Teacher Forcing
+
+오토리그레시브한 테스크, 그리고 티처포싱 이라는 방식에 대해 알아봅니다.
 
 - #### RNN의 구분?
 

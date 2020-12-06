@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering "
+title:  "Data Engineering - AWS 프리티어 사용해보기 "
 subtitle:   "AWS Set Up - Free Tier"
 categories: data
 tags: engineering

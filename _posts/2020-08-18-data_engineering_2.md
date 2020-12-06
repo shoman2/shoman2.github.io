@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering"
+title:  "Data Engineering - 데이터 파이프라인과 자동화"
 subtitle:   "Pipeline"
 categories: data
 tags: engineering

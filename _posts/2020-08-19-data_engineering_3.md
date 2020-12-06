@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering "
+title:  "Data Engineering - 기초도구 설명 ATOM & SHELL"
 subtitle:   "Basic Set up"
 categories: data
 tags: engineering

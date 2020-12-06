@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Engineering"
+title:  "Data Engineering - End to End Architecture"
 subtitle:   "넷플릭스 및 우버 "
 categories: data
 tags: engineering

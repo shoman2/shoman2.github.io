@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "N-GRAM 정리 "
+title:  "자연어처리 - N-GRAM 정리 "
 subtitle:   "Language Modeling"
 categories: data
 tags: dl
 comments: true
 ---
 # n-gram 정리
+
+n-gram 알고리즘에 대해 다시 정리합니다!
 
 - #### 장점
 

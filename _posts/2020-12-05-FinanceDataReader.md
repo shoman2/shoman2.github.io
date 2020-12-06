@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FinanceDataReader 패키지 "
+title:  "파이썬 패키지 활용 - FinanceDataReader에 대하여 "
 subtitle:   "주가정보 시각화"
 categories: data
 tags: dl
