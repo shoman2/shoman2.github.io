@@ -2,7 +2,7 @@
 layout: post
 title:  "Kaggle & Dacon 리뷰! "
 subtitle:   "Introduction"
-categories: kaggle
+categories: ds-kaggle
 tags: competitions
 comments: false
 ---
