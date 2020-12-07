@@ -8,7 +8,6 @@ comments: true
 ---
 
 # Review: Statistical & Geometric Perspective for Deep Learning
-
 - 기존 Our objective is:
 
   - 세상에 존재하는 어떠한 미지의 함수를 찾자 (Approximation)

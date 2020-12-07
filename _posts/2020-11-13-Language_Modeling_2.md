@@ -7,7 +7,6 @@ tags: dl
 comments: true
 ---
 # Interpolation & Back-off
-
 - 수치 보간법이라고 한글로 불리움.. 수학과 수업에서 들어본 듯.
 - 다른 LM을 linear하게 일정 비율로 섞는 것
 - general domain LM + domain specific LM = general domain에서 잘 동작하는 domatin adapted LM

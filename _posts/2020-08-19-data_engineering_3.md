@@ -7,9 +7,7 @@ tags: engineering
 comments: true
 ---
 # Data Engineering 기초 Set up
-
 #### 1. 텍스트 에디터 사용 (어떤걸 쓰던 자기가 편한게 장땡)
-
 1)**ATOM** 1.50.0 for macOS - 처음 사용해보는데 경험을위해 한번 깔아보자.
 
 - 구글에 Atom 검색하니 가장 상위에 뜸

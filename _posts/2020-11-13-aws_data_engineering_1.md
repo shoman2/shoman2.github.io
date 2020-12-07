@@ -7,7 +7,6 @@ tags: engineering
 comments: true
 ---
 # AWS 프리티어 구축 (for Data Engineering) 
-
 #### 1.AWS 가입 후 둘러보기
 
 ![image-20200818211137479](https://shoman2.github.io/assets/img/image-20200818211137479.png)

@@ -7,9 +7,7 @@ tags: engineering
 comments: true
 ---
 # 데이터 파이프라인 이란?
-
 #### 1)데이터 파이프라인 이란 ?
-
 데이터를 한 장소에서 다른 장소로 옮기는 것
 
 - API 에서 DB로

@@ -8,7 +8,6 @@ comments: true
 ---
 
 # SQL Data Types
-
 SQL데이터 타입에 대해 알아봅니다. 기초지만 중요하지요.
 
 SQL Data Types

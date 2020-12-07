@@ -7,7 +7,6 @@ tags: dl
 comments: true
 ---
 # Intro to Language Modeling(LM)
-
 - 언어모델, LM은 "문장의 확률"을 나타낸 모델
   - 구체적으로는 '문장 자체의 출현 확률'을 예측하는 모델
   - 또는 이전 단어들이 주어졌을 때 '다음 단어'를 예측하기 위한 모델

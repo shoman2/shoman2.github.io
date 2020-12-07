@@ -7,7 +7,6 @@ tags: dl
 comments: true
 ---
 # n-gram 정리
-
 n-gram 알고리즘에 대해 다시 정리합니다!
 
 - #### 장점

@@ -7,7 +7,6 @@ tags: basic
 comments: true
 ---
 # Daily Life
-
 이래저래 시간이 흐르고 벌써 2020년 12월 5일이다.
 
 
