@@ -3,8 +3,8 @@ layout: post
 title:  "Keras - CNN Model Code Test"
 subtitle:   "CNN"
 categories: data
-tags: ds-dl
-omments: true
+tags: ML/DL
+comments: true
 ---
 ```python
 import keras
