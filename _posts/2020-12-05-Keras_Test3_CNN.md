@@ -3,7 +3,7 @@ layout: post
 title:  "Keras - CNN Model Code Test"
 subtitle:   "CNN"
 categories: data
-tags: ML/DL
+tags: dl
 comments: true
 ---
 ```python
